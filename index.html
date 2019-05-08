@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      overflow: hidden;
+    }
+    div {
+      flex: 0 0 80%;
+    }
+
+    [data-cy=red] {
+      background-color: red;
+    }
+
+    [data-cy=green] {
+      background-color: green;
+    }
+
+    [data-cy=blue] {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div data-cy="red">red</div>
+    <div data-cy="green">green</div>
+    <div data-cy="blue">blue</div>
+  </div>
+</body>
+</html>
